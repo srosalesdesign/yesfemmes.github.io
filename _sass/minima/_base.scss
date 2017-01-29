@@ -16,7 +16,6 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -156,20 +155,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
-  @extend %clearfix;
-
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-  }
+ 
 }
 
 
@@ -195,4 +181,98 @@ pre {
   path {
     fill: $grey-color;
   }
+}
+
+/** 
+* Animation 
+*/
+
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0; 
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+
+}
+
+@keyframes fadeInUp {
+
+  0% {
+    opacity: 0; 
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+
+
+}
+
+@keyframes fadeInRight {
+
+  0% {
+    opacity: 0; 
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: (200px);
+  }
+
+
+}
+
+.m-scene {
+
+  .scene_element {
+    animation-duration: 3s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+  }
+
+  .fadein {
+    animation-name: fadeIn;
+  }
+
+  .fadeinright {
+    animation-name: fadeInRight;
+  }
+
+  &.is-exiting {
+    .scene_element {
+      animation-direction: alternate-reverse;
+    }
+  }
+}
+
+.announcement {
+  font-family: $base-font-family;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #F74DEB;
+  opacity: .5;
+
+  a {
+    color: #54EA66;
+  }
+
+}
+
+.close {
+  position: absolute;
+    z-index: 999;
+    right: 50px;
+    /* top: 30px; */
+    font-size: 4em;
+    font-weight: 100;
+    display: none;
+
 }
