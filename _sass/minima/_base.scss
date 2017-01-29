@@ -246,6 +246,10 @@ pre {
     animation-name: fadeInRight;
   }
 
+  .fadeinup {
+    animation-name: fadeInUp;
+  }
+
   &.is-exiting {
     .scene_element {
       animation-direction: alternate-reverse;
