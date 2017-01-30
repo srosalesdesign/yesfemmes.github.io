@@ -183,6 +183,8 @@
 
   height: 100vh;
   overflow: hidden;
+  position: relative;
+  z-index: 10;
 
   a {
     cursor: url('/assets/images/yes-femmes-cursor-2.ico'), auto;
@@ -316,12 +318,25 @@ img.kenburns {
 
 .letter-wrapper {
   position: absolute;
-  z-index: 9999;
+  z-index: 99999999;
   width: 100%;
   top: 50%;
   background-color: none;
   text-align: center;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
+   -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+
+  a {
+      &:hover {
+      cursor: url('/assets/images/yes-femmes-cursor-2.ico'), auto;
+
+
+      }
+
+  }
+
 }
 
 
@@ -462,8 +477,11 @@ img.kenburns {
 /* ABOUT */
 
 .hp-about {
-  position: absolute;
   
+      position: absolute;
+      top: 0;
+      background: #ffffff;
+      height: 100vh;
 }
 
 .copy {
@@ -475,6 +493,8 @@ img.kenburns {
       width: 90%;
       margin: 1em auto;
       text-align: justify;
+
+      padding-top: 100px;
     }
 
   @include media-query($on-laptop) {
@@ -509,19 +529,19 @@ img.kenburns {
 
 .highlight-pink {
   background-color: #F74DEB;
-  padding: 5px 0;
+  padding: 5px;
 }
 
 
 .highlight-yellow {
   background-color: #F2F74D;
-    padding: 5px 0;
+    padding: 5px;
 
 }
 
 .highlight-green {
   background-color: #54EA66;
-  padding: 5px 0;
+  padding: 5px;
 }
 /**
  * Posts
@@ -572,8 +592,12 @@ img.kenburns {
     position: absolute;
     z-index: 999;
     right: 50px;
-    /* top: 30px; */
     font-size: 4em;
     font-weight: 100;
-    display: none;
+
+    a {
+      color: #54EA66;
+      font-family: 'Inconsolata', monospace;
+
+    }
 }

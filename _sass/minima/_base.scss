@@ -6,6 +6,7 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
+
 }
 
 
@@ -93,13 +94,16 @@ a {
   color: $brand-color;
   text-decoration: none;
 
+
   &:visited {
     color: darken($brand-color, 15%);
   }
 
   &:hover {
     color: $text-color;
-    text-decoration: underline;
+    text-decoration: none;
+
+
   }
 }
 
@@ -148,6 +152,8 @@ pre {
     padding-left: 0;
   }
 }
+
+
 
 
 
@@ -224,7 +230,27 @@ pre {
 
   100% {
     opacity: 1;
-    transform: (200px);
+    transform: none;
+    z-index: 99;
+
+  }
+
+
+}
+
+@keyframes slideleft {
+
+  0% {
+    opacity: 1; 
+    transform: none;
+    z-index: 99;
+
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+
   }
 
 
@@ -239,7 +265,27 @@ pre {
   }
 
   .fadein {
-    animation-name: fadeIn;
+    animation-name: fadeIn ease-in 1;
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+
+    opacity: 0;
+    opacity: 1 \9;
+
+     -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+
+
+
+  }
+
+  .slide-out {
+    animation-name: slideleft;
   }
 
   .fadeinright {
@@ -270,13 +316,4 @@ pre {
 
 }
 
-.close {
-  position: absolute;
-    z-index: 999;
-    right: 50px;
-    /* top: 30px; */
-    font-size: 4em;
-    font-weight: 100;
-    display: none;
 
-}
