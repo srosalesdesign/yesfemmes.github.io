@@ -32,3 +32,10 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+
+collections:
+  stories:
+    output: true
+    permalink: /stories/:title.html
+
