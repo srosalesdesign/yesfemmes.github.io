@@ -24,14 +24,11 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 }
 */
 
-.text-group p {
-	font-size: .82em;
-	 line-height: 2.3em;
-
-}
-
-	.single-s {
-  line-height: 1.3em;
+.story {
+	color: #fff;
+	font-size: 1.3em;
+	background: #fff;
+	color: #000;
 }
 
 .title-p {
@@ -41,23 +38,40 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 .section-detail {
 	width: 70%;
 	margin: 0 auto;
+	padding-top: 10%;
 }
 
+.text-group {
+	min-height: 300px;
+	padding-bottom: 3em;
+}
+
+.intro {
+	position: relative;
+}
+
+.intro h1 {
+	position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+   margin: 0 auto;
+  width: 100%;
+}
 
 </style>
 <div class="story-wrapper">
-	<div id="fullpage">
-		<div class="section title-p">
-			<h1>Mother, Father Sister<br>
-				by Saehee Cho</h1>
+		<div class="section intro title-p full">
+			<h1 class="story-title">Mother, Father, Sister
+			</h1>
 		</div>
-		<div class="section page-1" style="background-color: #eee;">
+		<div class="story">
+		<div class="section-wrapper">
+			<div class="section page-1">
 			<div class="section-detail">
 			<div class="text-group">
 			<p>Mother,<br>
 			Sliding through a closing door.</p>
 			</div>
-
 <div class="text-group" style="padding-bottom: 75px;">
 <p>Father,<br>
 A time when love was kind of insect-like mimicry.</p>
@@ -76,7 +90,7 @@ A fall Sunday turns red at 3 in the afternoon.</p>
 
 </div><!-- end first section -->
 
-<div class="section page-2" style="background-color: #ddd;">
+<div class="section page-2">
 				<div class="section-detail">
 
 <div class="text-group">
@@ -91,7 +105,7 @@ A parade of spirits.</p>
 <div class="text-group">
 <p>Father,<br>
 Where are your spirits?</p>
-<p class="single-s">It’s possible that mother took those too. Your spirits and her spirits grew confused and merged<br> like water drops traveling on the windshield of a moving car. Isn’t this what marriage is?
+<p class="single-s">It’s possible that mother took those too. Your spirits and her spirits grew confused and merged like water drops traveling on the windshield of a moving car. Isn’t this what marriage is?
 </p>
 </div>
 <div class="text-group">
@@ -107,12 +121,12 @@ And when mother left, the spirits chose her.
 
 <div class="text-group">
 <p>Sister,</p>
-<p class="single-s">Can we break something and leave it intact? You look straight at me when you talk of<br> heartache. And I tell you to break, to unhinge and then slide.<br>
-It is good and right to grow milky from your own sadness because we all have to serve that kind<br> of time. Let’s call them growing pains.</p>
+<p class="single-s">Can we break something and leave it intact? You look straight at me when you talk of heartache. And I tell you to break, to unhinge and then slide.<br>
+It is good and right to grow milky from your own sadness because we all have to serve that kind of time. Let’s call them growing pains.</p>
 </div>
 <div class="text-group">
 <p>Sister,</p>
-	<p class="single-s">It has never been about the sensation of pain when I bring my own fist to my chest. I’m looking<br> for the act and then the result—the simple exertion of will onto the body and then a bloom, a color<br> spreading.</p>
+	<p class="single-s">It has never been about the sensation of pain when I bring my own fist to my chest. I’m looking for the act and then the result—the simple exertion of will onto the body and then a bloom, a color spreading.</p>
 	<br>
 	<p>Does this make it easier for you?</p>
 
@@ -126,12 +140,10 @@ It is good and right to grow milky from your own sadness because we all have to 
 
 <div class="text-group">
 	<p>Father,</p>
-<p class="single-s">I imagine if I wanted to weigh the sagging fullness of your sorrow I’d use biblical units of<br> measure. I might measure in palms or ephah or by the bushel. I remember reading the Book of<br> Solomon and only feeling the impossibility of measure.</p>
+<p class="single-s">I imagine if I wanted to weigh the sagging fullness of your sorrow I’d use biblical units of measure. I might measure in palms or ephah or by the bushel. I remember reading the Book of Solomon and only feeling the impossibility of measure.</p>
 </div>
 </div>
 </div><!-- end page 3 -->
-
-
 
 <div class="section page-4">
 				<div class="section-detail">
@@ -341,6 +353,8 @@ In sleep I will my body to dissolve, for everything to disjoint. Muscles crackin
 </div> <!-- end page 10 --> 
 
 
-</div><!-- end full page wrapper -->
+</div> <!-- end section-wrapper -->
+</div><!-- end story -->
+
 
 </div><!-- end story-wrapper -->

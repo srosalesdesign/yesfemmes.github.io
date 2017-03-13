@@ -3,8 +3,7 @@
 
   {% include head.html %}
 
-  <body>
-
+<body class="{% if page.title %}post{% else %}home{% endif %} m-scene">
     {% include header.html %}
     <div id="main" class="container m-scene">
     <main class="page-content" aria-label="Content">

@@ -1,27 +1,86 @@
-<!-- <header class="site-header" role="banner">
+<div class="letter-wrapper fadein">
+<a href="#issue-section">
+<div class="letter float y">Y</div>
+  <div class="letter float e">e</div>
+  <div class="letter float s">s</div>
+  <br>
+  <div class="letter float f">F</div>
+  <div class="letter float ee">e</div>
+  <div class="letter float m">m</div>
+  <div class="letter float mm">m</div>
+  <div class="letter float eee">e</div>
+  <div class="letter float ss">s</div>
+</a>
 
-  <div class="wrapper">
+</div><!-- End letter-wrapper -->
+<!-- <div class="side-nav about-menu"><a href="#">About</a></div>
 
-    <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+<div class="side-nav index-menu"><a href="#issue-first">Index</a></div>-->
+{% if page.layout != 'home' %}
+<div class="menu-index">
+<div class="index">
 
-    <nav class="site-nav">
-      <span class="menu-icon">
-        <svg viewBox="0 0 18 15" width="18px" height="15px">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </span>
+{% capture stories %}{{ page.collection }}{% endcapture %}
 
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
+{% if page.collection %}
+  {% assign document = site[stories] | sort: 'lastname' %%}
+{% endif %}
+
+
+
+{% for links in document %}
+  {% if links.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+      {% assign prevtitle = prev.title %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = document[forloop.index] %}
+      {% assign nexttitle = next.title %}
+      {% assign nexturl = next.url %}
+    {% endunless %}
+  {% endif %}
+  {% assign prev = links %}
+{% endfor %}
+
+
+ 
+
+{% if prevurl %}<p class="title-prev"><a href="{{ prevurl }}"> << <span> {{ prevtitle l}}</span></a></p>{% endif %}
+<p class="contents"><a href="/#issue-section">Contents</a></p>
+{% if nexturl %}<p class="title-next"><a href="{{ nexturl }}"><span>{{ nexttitle }} </span> >></a></p>{% endif %}
+
+<script>
+/* post pagination keyboard shortcuts */
+document.body.onkeyup = function(e){
+  if (e.keyCode == '37') { window.location = '{{ prevurl }}'; } // left arrow key
+  if (e.keyCode == '39') { window.location = '{{ nexturl }}'; } // right arrow key
+};
+</script></div>
+<div class="about"><p><a href="#about">About</a></p></div>
+</div>
+{% endif %}
+
+<div class="about-details scene_element fadein">
+
+
+  <div class="close"><a href="#" class="fadein">x</a></div>
+  <div class="copy">
+    <p>YES FEMMES is an online experiment that publishes writing and digital projects working toward a femme aesthetic. We're interested in <span class="highlight-pink">writing that explores the limits of the body,</span> that's campy or fannish, that engages with witchcraft or the occult, that has an excess of feeling, that looks to animals and plants as models or collaborators, <span class="highlight-yellow">that considers how digitality might be femme,</span> and that moves toward the horizon of queerness. We plan to publish irregularly, according to our feelings, the cycles of the moon, and other factors.</p>
+
+    <p>YES FEMMES was conceived of first as a reading series by Sam Cohen and Gina Abelkop, while they were <span class="highlight-green">floating together in the ocean</span> off the coast of a Malibu beach. Its digital iteration is made in northeast Los Angeles, edited by Sam Cohen and designed by Sandra Rosales.</p>
+
+    <p>Submissions, pitches, and inquiries at yesfemmes@gmail.com. </p>
 
   </div>
 
-</header>-->
+
+ </div>
+
+<script>
+/* post pagination keyboard shortcuts */
+document.body.onkeyup = function(e){
+  if (e.keyCode == '37') { window.location = '{{ prevurl }}'; } // left arrow key
+  if (e.keyCode == '39') { window.location = '{{ nexturl }}'; } // right arrow key
+};
+</script>

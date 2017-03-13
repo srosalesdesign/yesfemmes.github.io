@@ -6,6 +6,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
 
+
+$story-font-family: 'callunaregular', sans-serif;
+
 $base-font-family: 'Montserrat', sans-serif;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
@@ -17,6 +20,10 @@ $spacing-unit:     30px !default;
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #2a7ae2 !default;
+
+$purple: #5900ff;
+$green: #54EA66;
+$pink: #F74DEB;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;

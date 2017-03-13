@@ -1,0 +1,28 @@
+<div class="issue-landing issue-first">
+	<div class="img-wrapper"></div>
+
+	<div class="issue-title"><h1>Issue One</h1></div>
+
+
+ <div class="author-info"> 
+ <ul class="authors">
+ 	{% assign sorted = (site.stories | sort: 'lastname') %}
+
+ 	{% for item in sorted %}
+  <li class="item-{% increment counter %}"><h2><a href="{{ item.url }}">{{ item.firstname }} {{item.lastname}} /  </a></h2></li>
+{% endfor %}
+</ul>
+
+<!--
+
+{% assign sorted_images = (site.stories | sort: 'lastname') %}
+ 	{% for item in sorted_images %}
+
+<div style="width: 100px;" class="preview-wrapper">
+<img class="{{item.lastname}} item-{% increment counter %}" src="{{ item.preview }}" alt="{{ item.title }}">
+</div>
+{% endfor %}
+-->
+
+  </div>
+</div>

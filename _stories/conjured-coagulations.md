@@ -1,7 +1,7 @@
 ---
 layout: page
-lastname: Frias
-firstname: Edgar Fabian
+lastname: Frías
+firstname: Edgar Fabián
 title: Conjured Coagulations
 issues: first
 bio: |
@@ -9,21 +9,105 @@ bio: |
 preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 ---
 
-<script>
-$( document ).ready(function() {
+<style>
 
-	$('#main').tubular({videoId: 'g0OF0Z61nps'}); // where idOfYourVideo is the YouTube ID.
+.section {
+	position: relative;
+}
 
-});
 
-</script>
+
+.story-title {
+	position: relative;
+	text-align: center;
+	top: 10%;
+
+}
+
+.intro {
+	color: #ffffff;
+	font-size: 1.2em;
+	position: absolute;
+	top: 30%;
+	width: 85%;
+	left: 10%;
+}
+
+.intro p {
+	transform: rotate(0);
+  transition: transform 8s 0.2s cubic-bezier(0,.87,.16,1);
+}
+
+.loaded p.skew {
+  transform: rotate(10deg);
+}
+.loaded p.skew span {
+  transform: rotate(10deg);
+}
+
+.story {
+	position: relative;
+	background: rgb(84,234,102); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(84,234,102,1) 0%, rgba(210,255,82,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(84,234,102,1) 0%,rgba(210,255,82,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(84,234,102,1) 0%,rgba(210,255,82,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54ea66', endColorstr='#d2ff52',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+copy
+
+}
+
+.video-container {
+	border: 5px solid #5900ff;
+}
+
+
+
+
+
+@media screen and (min-width: 800px) {
+
+	.story {
+		padding: 5em 0;
+	}
+
+	.story-title {
+		top: 20%;
+	}
+	
+	.intro {
+	
+	width: 40%;
+	left: 35%;
+	top: 40%;
+
+}
+
+}
+
+
+
+
+</style>
+
+
 
 
 <div class="story-wrapper">
-	<div class="story">
-	
 
-<h1>video here</h1>
+<div class="section title-p full">
+			<h1 class="story-title">Conjured Coagulations
+			</h1>
+			<div class="intro">
+<p class="skew">Conjured Coagulations engages nonbinary femme identities and the process of channeling as sorcery and intentional magick. Playing the role of soothsayers from alternative dimensions, each embodied being in Conjured Coagulations transmits a sacred message. What survives patriarchy's grasp? What remains? What re-roots? This video is a spell. </p>
+
+
+</div>
+</div>
+
+<div class="story full">
+	<div class="video-container">
+	<div data-type="youtube" data-video-id="https://youtu.be/g0OF0Z61nps"></div>
+</div>
 </div>
 
 </div>
