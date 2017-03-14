@@ -425,10 +425,13 @@ img.kenburns {
       }
 }
 
-  a.no-link:hover {
-    cursor: pointer;
-  }
+ 
 }
+
+}
+
+.letter-wrapper a.no-link:hover {
+      cursor: default!important;
 
 }
 
@@ -793,13 +796,18 @@ img.kenburns {
 
   }
 
-
-
- @include media-query($on-palm) {
-  .issue-landing li a {
+  @include media-query($on-laptop) {
+  li a {
     font-size: 1.1em;
   }
  }
+
+ li a:hover  {
+     
+      cursor: url('/assets/images/yes-femmes-cursor-2.ico'), auto;
+
+
+      }
 
 
   .preview-wrapper {
