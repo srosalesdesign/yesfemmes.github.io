@@ -764,14 +764,19 @@ img.kenburns {
     color: $green;
   }
 
+
+
   .author-info {
     position: absolute;
     bottom: 0;
     z-index: 9999;
     top: 0;
     width: 100%;
+    overflow: scroll;
 
   }
+
+
 
   .author-list {
     position: absolute;
@@ -784,7 +789,7 @@ img.kenburns {
   li a {
     color: #5900ff;
     letter-spacing: .06em;
-    font-size: .9em;
+    font-size: .7em;
 
   }
 
@@ -813,7 +818,7 @@ img.kenburns {
   }
 
   ul.authors {
-    position: absolute;
+    /*position: absolute;*/
     width: 85%;
     z-index: 999;
     bottom: 35px;
@@ -823,7 +828,16 @@ img.kenburns {
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 2em;
   }
+
+  @include media-query($on-laptop) {
+
+    ul.authors {
+      position: absolute;
+    }
+
+}
 
   li {
    z-index: 999;

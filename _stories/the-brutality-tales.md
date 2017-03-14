@@ -80,19 +80,15 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 </div>
 </div>
 
-<div class="story">
+<div class="story full">
 <div class="iframe-container">
     <iframe src="http://www.amandafayejimenez.com/test/the-brutality-tales.html" allowfullscreen="" frameborder="0">
     </iframe></div></div>
-
+<!--
 <div class="section full purple-gradient">
 
 	<p class="bio">Muriel Leung is the author of <i>Bone Confetti</i> (Noemi Press 2016). Her poetry, fiction, and nonfiction can be found or is forthcoming in <i>Drunken Boat, The Collagist, Fairy Tale Review, Ghost Proposal, Jellyfish Magazine, inter/rupture,</i> and others. She is a recipient of a Kundiman fellowship and is a regular contributor to the Blood-Jet Writing Hour poetry podcast. She is also a Poetry Co-Editor of <i>Apogee Journal</i>. Currently, she is pursuing her PhD in Creative Writing and Literature at the University of Southern California.</p>
-</div>
-	
-
-
-
+</div> -->
 
 
 </div>
