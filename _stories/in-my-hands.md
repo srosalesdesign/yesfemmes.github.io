@@ -98,7 +98,7 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 </div>
 
 <div class="section green-gradient">
-<p style="color: #000000;" class="bio">Adrienne Walser has lived in Los Angeles for eleven years, almost as long as she lived in her first-love city, Tucson. She got an English Ph.D. at USC and became Literature Faculty for Bard College's MAT program in LA. She's also taught literature and writing at USC, UCLA and ELAC. As the Academic Specialist for the Youth Policy Institute, she works with public school teachers in Los Angeles. She writes about modernism, art, film, poetry, and bodies and has published work in <i>Jacket2, Art Book Review, Contemporary Art Review Los Angeles (Carla), Entropy,</i> and <i>Pastelegram: Projects Exploring Archives and Artistic Process.</i></p>
+<p style="color: #000000;" class="bio">Adrienne Walser has lived in Los Angeles for eleven years, almost as long as she lived in her first-love city, Tucson. She got an English Ph.D. at USC and became Literature Faculty for Bard College's MAT program in LA. She's also taught literature and writing at USC, UCLA and ELAC. In her position at a non-profit organization, she works with public school teachers in Los Angeles. She writes about modernism, art, film, poetry, and bodies and has published work in <i>Jacket2, Art Book Review, Contemporary Art Review Los Angeles (Carla), Entropy,</i> and <i>Pastelegram: Projects Exploring Archives and Artistic Process.</i></p>
 
 </div>
 

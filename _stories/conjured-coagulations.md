@@ -60,6 +60,15 @@ copy
 	border: 5px solid #5900ff;
 }
 
+    .video-container {
+  position: absolute;
+  width: 90%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+}
+
+
 
 
 

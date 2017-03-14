@@ -66,6 +66,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5900ff', end
 
 .video-container {
 	border: 5px solid #54EA66;
+	width: 90%;
+	margin: 0 auto;
+
 }
 
 .detail {
@@ -100,7 +103,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5900ff', end
 </div>
 	<div class="story full">
 <div class="video-container">
-<video poster="/path/to/poster.jpg" controls>
+<video controls>
   <source src="{{ site.url }}/assets/video/Moon-laub_4percentUniverse-segment.mp4" type="video/mp4">
   <source src="/path/to/video.webm" type="video/webm">
   <!-- Captions are optional -->

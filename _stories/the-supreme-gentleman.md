@@ -72,6 +72,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5900ff', end
 	border: 5px solid #54EA66;
 }
 
+    .video-container {
+  position: absolute;
+  width: 90%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+}
+
 
 
 

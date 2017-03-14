@@ -445,7 +445,7 @@ img.kenburns {
   text-transform: uppercase;
   letter-spacing: .13em;
   text-align: center;
-  font-size: 4em;
+  font-size: 2em;
   display: inline-block;
   background: none;
   -webkit-background-clip: text;
@@ -1022,13 +1022,6 @@ box-shadow: 0 0 1em $pink;
     }
     
 
-    .video-container {
-  position: absolute;
-  width: 90%;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -45%);
-}
 
 .purple-gradient {
   background: rgb(89,0,255); /* Old browsers */
