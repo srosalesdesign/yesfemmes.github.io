@@ -25,6 +25,8 @@ p {
 	font-size: 1.2em;
 	letter-spacing: .03em;
 }
+
+
 .indent {
 	text-indent: 3em;
 }
@@ -34,8 +36,18 @@ p {
 
 }
 
+
+
 .indent-3 {
 	text-indent: 7em;
+}
+
+#auth-name {
+	color: #54EA66!important;
+	-webkit-background-clip: unset;
+    -webkit-text-fill-color: #54EA66;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: unset;
 }
 
 
@@ -44,10 +56,11 @@ p {
 <div class="story-wrapper purple-gradient">
 	<div class="section">
 
-		<h1 class="story-title">Milk Toast
+		<h1 class="story-title">Milk Toast <br>
+			<span id="auth-name">JD Scott</span>
 			</h1>
 
-			<p>Too broke to be the money shot</p>
+			<p style="padding-top: 1.5em;">Too broke to be the money shot</p>
 
 	<p class="indent">Too high-horsed to be on bottom</p>
 
@@ -134,12 +147,23 @@ p {
 <p>I thought you knew&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that’s why they call me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the human bakery.</p>
 	</div>
 
-	
-
+	<div class="section-bio green-gradient">
+<p class="bio" style="color: #000000;">JD Scott is the author of two chapbooks: <i>FUNERALS & THRONES</i> (Birds of Lace Press, 2013) and <i>Night Errands</i> (YellowJacket Press, 2012). Recent and forthcoming publications include <i>Best American Experimental Writing, Prairie Schooner, Salt Hill, The Pinch, Sonora Review, The Atlas Review, Powder Keg, Apogee, Winter Tangerine,</i> and elsewhere. More of JD can be found at jdscott.com.</p>
 		
-
-
-	</div>
-
+</div>
 
 </div><!-- end story-wrapper -->
+
+	
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93682415-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

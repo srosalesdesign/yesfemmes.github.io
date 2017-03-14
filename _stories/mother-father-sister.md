@@ -61,7 +61,8 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 </style>
 <div class="story-wrapper">
 		<div class="section intro title-p full">
-			<h1 class="story-title">Mother, Father, Sister
+			<h1 class="story-title">Mother, Father, Sister<br>
+				<span>Saehee Cho</span>
 			</h1>
 		</div>
 		<div class="story">
@@ -355,6 +356,18 @@ In sleep I will my body to dissolve, for everything to disjoint. Muscles crackin
 
 </div> <!-- end section-wrapper -->
 </div><!-- end story -->
-
-
+<div class="section full purple-gradient">
+<p class="bio">Saehee Cho is a writer and cook. She is the founder of SOO N, a food concept grounded in an on-going artistic engagement in all things culinary. Her poetry and fiction has been published in <i>Tierra Adentro, Black Clock, Sidebrow, RECAPS, Entropy,</i> and <i>Eleven Eleven</i>. She is an organizer and regular contributor for <i>Enter>Text</i>, an ongoing performance series interested in the expansive and immersive experience of literature. She lives and eats and writes in Los Angeles.</p>
+</div>
 </div><!-- end story-wrapper -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93682415-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

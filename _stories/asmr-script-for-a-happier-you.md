@@ -50,6 +50,10 @@ p.skew span {
   transform: rotate(-10deg);
 }
 
+.bio {
+	color: #000000!important;
+	}
+
 .story {
 	width: 90%;
 	margin: 0 auto;
@@ -62,7 +66,7 @@ p.skew span {
 .intro {
 	
 	
-	font-size: 2em;
+	font-size: 1.3em;
 	}
 
 .story {
@@ -75,14 +79,27 @@ p.skew span {
 <div class="story-wrapper">
 
 	<div class="section title-p full">
-			<h1 class="story-title">ASMR Script for <br>A Happier You
-			</h1>
+			<h1 class="story-title">ASMR Script for <br>A Happier You<br>
+			<span>Megan/M. Henry Milks</span></h1>
 			<div class="intro"><p class="skew">Triggers: nail tapping, scribbling, brushing, whispers, personal attention, wet mouth sounds, gloves, chirps, unintelligible</p></div>
 	</div>
 
-<div class="story full"><p>Hello and welcome. Thank you so much for coming. I’ve been waiting for you. Clack clack. No. You’re not late. Clack. You’re perfectly on time. Please have a seat. You’re perfect. Let’s help you relax. Lie back. Good. Relax. Sahhh. Sigh. Lips moving over teeth. Slurp. Swallow. Click. I’m very happy to see you. Swallow. Very happy. Click. Let’s give you tingles. Relax. You don’t have to stay perfectly still. But stay as still as you can. Good. Perfect. Wonderful. Scribbling. Perfect. Click. I’m breathing softly into one ear. Ahhhh. Haaaaaaaaa. Lip smacks. Click click. I’m giving you so much sensation. Ahhhh. Haaaaaaaa. Tapping. Multi-layered mouth sounds. Zip. Brush. Nice. Very nice. Do you like it when I whisper. I like you. Ahhhhh. Haaaaaaaa. I like you so much. I’m putting on my gloves now. Slither. Crimple. Glug glug. Squirt. Relax. Sahhh. The lotion feels cool on your skin. Ahhhhhh. Wet eye blinks. Lips moving over teeth. Lips together. Sigh. Tap tap. Now I’m wiping your ear with alcohol. Wet noises. Very nice. Blink. Blink. Slck slck. I like to give you personal attention. Now whhhh. I’m breathing into your ear canal. Whhhhh. Soft. Ahhhhh. Haaaaa. Now for warm oil. Good. Wonderful. How does that feel? Good. Perfect. Good. Just wait. Ahhhh. This feels so nice. You’re perfect. Now turn your head, slowly, slowly. Ahhhh. Let the bad things flow out. They get stuck there, don’t they. They repeat over and over. Ahhhh. Yes. How does it feel. Can you feel them moving inside you. Yes. Now I’m holding this cup beneath your ear to collect what comes out. Tap tap. Yes. Here they come. All the bad things. Yes. A little bug. Glub glub. Eeeee. Ahaha! It wants to go back in! Sticky sticky. I’ve got it. This little bug is all of the bad feelings. Not too big. Normal size. Smash. Now it’s gone. Crinkle crnk. Bon voyage. Oh here’s another. Don’t shiver. Stay perfectly still. Good. Wonderful. You’re perfect. Look how big! It is all your bad thoughts, going crazy outside of your brain. I’m going to squish it. Ready? One. Two. Soft crunch. Squirt. Ahhhhh. Haaaa. You feel better. Oh my, another! This one was burrowed down deep. Stay still, now. Let it come. Oh my. This one is long—ahhh haaaa—it’s still coming. All your bad memories. Yes. How long. How squirmy. Pop. Crunch. Squirt. Gone. They’re all gone. Now you’re on your way to a happier you. Ahhhhh. Haaaa. Oh oh oh. Stay still. Pop. Drip. Drip. Oh. Oh my. Ploop. Ploop. Yes. Ploop. Yes yes. All of your thoughts now—all of them bugs—they’re dropping right out. Ee ee ee. Ah ah I’ve got them. Oh yes. How does that feel? Do you feel happy? Do you feel good. Good. We want to make you feel good. Perfect. You’re perfect. Crinkle. Snap. Bye now. Come back soon. </p>
- 
+<div class="story"><p>I’ve been waiting for you. Clack clack. No. You’re not late. Clack. You’re perfect. Have a seat. Good. Lie back. Thsss. Nnguh. Click. I’m very happy to see you. Click. Relax. Sahhhh. Let’s give you tingles. Sahhhh. You don’t have to stay perfectly still. But stay as still as you can. Perfect. Wonderful. Scrib scrub. Click. I’m breathing softly into one ahhhh. Haaaaaaaaa. Bup bup bup puh. Click. Let’s give you sensation. Clack clack. Plmp. Slrrp. Ssszzmp. Brshshsh. Very nice. I like you. Do you like it when I whisper. Ahhhhh. Haaaaaaaa. I’m putting on my slithp. Crrrmp. Gulg gulg. Squirt. Relax. Sahhh. Lotion feels cool on your skin. Plink. Mmm. Haaaaa. I’m wiping your ear with slrck. Slrck. Very nice. Plink. I like to give you personal attention. Plink plink. Nowhooo. I’m breathing into your ear canal. Whhhhh. Haaaaa. I’m giving you warm oil. Good. Wonderful. How does that feel. Good. You’re perfect. Let’s get rid of your bad bugs. Turn towards yes. Slowly, slowly. Ear down. Ahhhh. Haaaaa. Feel them moving inside you. We’ll collect them in this cup. Pah. Tap tap. Relax. Saaaah. Just let them. Thump. Thump. Squerch. Eeee. Hear that. Here it comes. A little bug. Glub glub. Eeeee. Ahaha. It wants to go back in. Sticky sticky. I’ve got it. Smrsh. Crinkle crnk. Don’t shiver. Stay perfectly still. Good. Wonderful. You’re perfect. Another. All your bugs sliding right out. Let’s squish them. Ready. One. Two. Krrrrsklirt. Ahhhh. Haaaa. You feel better. Oh my. This one is burrowed down deep. Stay still now. Still coming. This one is long—gahhhh haaaaaa. Squirmy squirmy. I’ll just so carefully huh pull it and yes. Squilk. Pip. Krrrlk. Squirt. You’re on your way to a happier you. Oh oh. Pop. Stay still. Drup. Ploop. Ploop. Yes. Ploop. And now your left socket. Tickle tickle. Do you feel that in your ah ah ah. Stay perfectly still. I’ve got it. And another. Pushing out your shhhhh. Do you feel it. We want to make you feel tingles. Yes. Good. Perfect. Zfffzffff snap. Bye now. Come back soon. 
+ </p>
 </div>
 
+<div class="section full green-gradient">
+<p class ="bio">Megan/M. Henry Milks is the author of <i>Kill Marguerite and Other Stories</i>, winner of the 2015 Devil’s Kitchen Reading Award in Fiction and a Lambda Literary Award finalist; as well as three chapbooks, most recently <i>The Feels</i>, an exploration of fan fiction and affect. They are editor of <i>The &NOW Awards 3: The Best Innovative Writing,</i> 2011-2013 and co-editor of <i>Asexualities: Feminist and Queer Perspectives.</i></p>
+</div>
 </div>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93682415-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

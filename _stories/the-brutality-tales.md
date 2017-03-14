@@ -27,7 +27,7 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 	width: 40%;
 	position: absolute;
 	left: 35%;
-	top: 40%;
+	top: 60%;
 
 }
 
@@ -73,21 +73,37 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 <div class="story-wrapper">
 
 <div class="section title-p full">
-			<h1 class="story-title">The Brutality Tales
+			<h1 class="story-title">The Brutality Tales<br><span>Muriel Leung</span>
 			</h1>
 			<div class="intro">
-<p class="skew">The following is an embed of the author's hypertext</p>
-
-
+<p class="skew">The following is an embed of Leung's hypertext short story, with illustrations by the author</p>
 </div>
 </div>
 
-<div class="story full">
+<div class="story">
 <div class="iframe-container">
     <iframe src="http://www.amandafayejimenez.com/test/the-brutality-tales.html" allowfullscreen="" frameborder="0">
-    </iframe>
+    </iframe></div></div>
+
+<div class="section full purple-gradient">
+
+	<p class="bio">Muriel Leung is the author of <i>Bone Confetti</i> (Noemi Press 2016). Her poetry, fiction, and nonfiction can be found or is forthcoming in <i>Drunken Boat, The Collagist, Fairy Tale Review, Ghost Proposal, Jellyfish Magazine, inter/rupture,</i> and others. She is a recipient of a Kundiman fellowship and is a regular contributor to the Blood-Jet Writing Hour poetry podcast. She is also a Poetry Co-Editor of <i>Apogee Journal</i>. Currently, she is pursuing her PhD in Creative Writing and Literature at the University of Southern California.</p>
 </div>
 	
-</div>
+
+
+
+
 
 </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93682415-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

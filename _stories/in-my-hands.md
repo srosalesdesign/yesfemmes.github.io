@@ -20,6 +20,14 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 
 }
 
+#auth-name {
+	color: #54EA66!important;
+	-webkit-background-clip: unset;
+    -webkit-text-fill-color: #54EA66;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: unset;
+}
+
 @media screen and (min-width: 800px) {
 
 	.main {
@@ -36,6 +44,7 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 }
 .story-title {
 	text-align: center;
+	padding-top: 1em;
 }
 
 .story p {
@@ -51,9 +60,11 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 <div class="story-wrapper purple-gradient">
 	<div class="story">
 		<div class="section title-p">
-			<h1 class="story-title">In My Hands</h1><div>
+			<h1 class="story-title">In My Hands<br>
+				<span id="auth-name">Adrienne Walser</span>
+				</h1><div>
 <div class="section main skew">
-<p><span>At age eight I receive the award Entertainer of the Year Runner-Up for a jazz-gymnastics routine that I perform to the disco song, “Give Me the Night.” My hair is short and I’m barefoot and bare-legged in a pale blue leotard with a red and white zigzag down the side.    I do disco dance moves and cartwheels, front flips and round-offs. My small hands land firm on the mat and shoot up in the air, fingers spread in jazz-hands. I am exuberant and fearless.</span></p>
+<p style="padding-top: 1em;">At age eight I receive the award Entertainer of the Year Runner-Up for a jazz-gymnastics routine that I perform to the disco song, “Give Me the Night.” My hair is short and I’m barefoot and bare-legged in a pale blue leotard with a red and white zigzag down the side.    I do disco dance moves and cartwheels, front flips and round-offs. My small hands land firm on the mat and shoot up in the air, fingers spread in jazz-hands. I am exuberant and fearless.</p>
 
 <p>I visit my mom’s family in Virginia in the summers and spend time with my favorite uncle who smokes pot and meditates in the locked basement bathroom of my grandparents’ big house. He has long hair and a blue and green pet parakeet we play with. He’s an artist and photographer and shoots beautiful pictures of us. He tells my sister and I fun stories at night before we go to bed. When he becomes a fundamentalist Christian, he prays with us and his stories become religious. When I am diagnosed with rheumatoid arthritis, he lays his hands on me, speaks in tongues, and prays to God to heal me. When my arthritis doesn’t go away, he says I’m not letting God heal me. This doesn’t sound right. I’m fine with God healing me. </p>
 
@@ -65,7 +76,7 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 
 <p>At Target I am at the register and a large box of cat litter is in my cart. I struggle to pick it up and put it on the conveyer belt. I always buy this particular kind of cat litter, even though it’s heavy and difficult for me to manage. I never think about my struggling being difficult from someone to watch. An older woman behind me, without saying anything, reaches into my cart and picks it up and puts in on the conveyor belt. After I pay for it, her daughter picks it up and puts it back in my cart. I say thank you. I cry when I get inside my car, touched by their immediate and unassuming help that asks nothing of me in return.</p> 
 
-<p>After my neck surgery three men doctors come into my hospital room to tighten the screws of the metal halo that has been drilled into my skull. They surround me and three pairs of doctor-hands simultaneously tighten the screws—a team effort. My cries of pain become louder and louder. They give up tightening the screws, at a pressure, they tell me, is less than desirable. They turn and leave, seemingly disappointed with me. Later, one of them comes back alone. He’s dressed meticulously; his pointy shoes are shiny brown leather; under his white coat, he wears a white pinstriped dress shirt. I notice his purple tie has a pattern of little white diamonds. In contrast, I’m a monster; my hair is matted with blood and iodine, my drugged-up body is a disheveled mess in the hospital gown and bed sheets. This doctor resumes the job of tightening the screws, and I cry out in pain. He explains to me the pressure of the metal halo around my head—the tightness of the screws—needs to be more. He tells me, you have a low threshold for pain. Most patients, he explains, can tolerate more pain. I try to stay quiet, but can’t keep myself from emitting more cries. He stops. He says I’ll come back later. Then he asks do you have any questions? This makes me angry and I half-yell this isn’t a good time for me to think of questions. He looks surprised and walks out of the room. No one tries to tighten the screws anymore. </p>
+<p>After my neck surgery three men doctors come into my hospital room to tighten the screws of the metal halo that has been drilled into my skull. They surround me and three pairs of doctor-hands simultaneously tighten the screws—a team effort. My cries of pain become louder and louder. They give up tightening the screws, at a pressure, they tell me, is less than desirable. They turn and leave, seemingly disappointed with me. Later, one of them comes back alone. He’s dressed meticulously; his pointy shoes are shiny brown leather; under his white coat, he wears a white pinstriped dress shirt. I notice his purple tie has a pattern of little white diamonds. In contrast, I’m a monster; my hair is matted with blood and iodine, my drugged-up body is a disheveled mess in the hospital gown and bed sheets. This doctor resumes the job of tightening the screws, and I cry out in pain. He explains to me the pressure of the metal halo around my head—the tightness of the screws—needs to be more. He tells me, you have a low threshold for pain. Most patients, he explains, can tolerate more pain. I try to stay quiet, but can’t keep myself from emitting more cries. He stops. He says I’ll come back later. Then he asks do you have any questions? This makes me angry and I half-yell this isn’t a good time for me to think of questions. He looks surprised and walks out of the room. No one tries to tighten the screws again. </p>
 
 <p>After the surgery at home, I sleep in the halo neck brace, which is difficult. In the middle of the night, L helps me sit up in bed because I can’t do it by myself. The halo is heavy, and I’m in pain and on drugs. L, L, I whisper, waking her up, I have to go the bathroom. She wakes up, leans over, puts her hand on my back, and gently moves me forward and up. </p>
 
@@ -86,4 +97,20 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 
 </div>
 
+<div class="section green-gradient">
+<p style="color: #000000;" class="bio">Adrienne Walser has lived in Los Angeles for eleven years, almost as long as she lived in her first-love city, Tucson. She got an English Ph.D. at USC and became Literature Faculty for Bard College's MAT program in LA. She's also taught literature and writing at USC, UCLA and ELAC. As the Academic Specialist for the Youth Policy Institute, she works with public school teachers in Los Angeles. She writes about modernism, art, film, poetry, and bodies and has published work in <i>Jacket2, Art Book Review, Contemporary Art Review Los Angeles (Carla), Entropy,</i> and <i>Pastelegram: Projects Exploring Archives and Artistic Process.</i></p>
+
+</div>
+
 </div><!-- end story-wrapper -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93682415-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

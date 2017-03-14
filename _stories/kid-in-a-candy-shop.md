@@ -40,6 +40,10 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 	padding-top: 2em;
 }
 
+.bio {
+	padding-bottom: 5em!important;
+}
+
 @media screen and (min-width: 800px) {
 
 .story-title {
@@ -52,13 +56,36 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 
 }
 
+.intro {
+	color: #ffffff;
+	font-size: 1.2em;
+	position: absolute;
+	top: 35%;
+	width: 30%;
+	left: 25%;
+}
+
+.intro p {
+	transform: rotate(0);
+  transition: transform 8s 0.2s cubic-bezier(0,.87,.16,1);
+}
+
+.loaded p.skew {
+  transform: rotate(10deg);
+}
+.loaded p.skew span {
+  transform: rotate(10deg);
+}
+
 </style>
 <div class="story-wrapper green-gradient">
 
 <div class="section title-p">
-			<h1 class="story-title">Kid in a Candy Shop</h1>
-			
+			<h1 class="story-title">Kid in a Candy Shop<br>
+				<span>Daviel Shy</span></h1>
+<div class="intro"><p class="skew"> This is an excerpt from Shy's novel-length poem, <i>Fantasizing the Amalfi Coast</i>. </p></div>
 	</div>
+	<br><br><br><br>
 <div class="story full">
 <p>June asks what is my earliest memory<br>
 June, a beautiful memory in himself<br>
@@ -165,6 +192,22 @@ Halting in the hallway before heading to the couch he said—<br>
 as if there were more to say<br>
  “I always feel seventeen with you.”</p>
 
+
+</div>
+
+<div class="section purple-gradient">
+<p class="bio">Daviel Shy is an independent scholar of liberation studies. Her research focuses on utopic moments in lesbian history and thought. She makes films (www.theladiesalmanack.com), writes poetry (chapbooks available from WALLSDIVIDEPRESS, Dancing Girl Press), organizes events (L.M.N.O.P.), and teaches classes (Profile of a Radical). She is editor of the nascent publishing experiment, Slivered Almond Press.</p>
 </div>
 
 </div><!-- end story-wrapper -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93682415-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

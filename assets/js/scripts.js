@@ -64,7 +64,7 @@ var controller = new ScrollMagic.Controller();
 
 // build scene
     var scene = new ScrollMagic.Scene({
-                                    triggerElement: ".issue-title"
+                                    triggerElement: "#issue-section"
                                 })
                                 .setClassToggle(".letter", "fix") // add class toggle
                                 //.addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)
@@ -72,7 +72,7 @@ var controller = new ScrollMagic.Controller();
 
                                 // build scene
     var scene = new ScrollMagic.Scene({
-                                    triggerElement: ".issue-title"
+                                    triggerElement: "#issue-section"
                                 })
                                 .setClassToggle(".letter-wrapper a", "no-link") // add class toggle
                                 //.addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)

@@ -466,7 +466,7 @@ img.kenburns {
     
 
   .letter {
-    font-size: 9em;
+    font-size: 7em;
   }
 
 }
@@ -735,12 +735,25 @@ img.kenburns {
   
 
   .issue-title {
+
+    display: none;
+    
+  }
+
+      @include media-query($on-palm) {
+
+        .issue-title {
+
+    display: block;
     position: absolute;
     top: 5%;
     z-index: 999;
     width: 100%;
     text-align: center;
   }
+
+      }
+
 
   .issue-title h1 {
     font-weight: 700;
@@ -774,6 +787,8 @@ img.kenburns {
     font-size: .9em;
 
   }
+
+
 
  @include media-query($on-palm) {
   .issue-landing li a {
@@ -812,10 +827,16 @@ img.kenburns {
 
   li {
    z-index: 999;
-   display: inline-block;
+   display: block;
    position: relative;
    top: 75%;
   }
+
+   @include media-query($on-palm) {
+  li  {
+    display: inline-block;
+  }
+ }
 
   
 }
@@ -877,10 +898,24 @@ animation: yfgradient 12s ease infinite;
 
 }
 
+.story-title span {
+  font-size: .5em;
+  -webkit-background-clip: unset;
+    -webkit-text-fill-color: #5900ff;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: unset;
+    color: #F74DEB;
+}
+
 @include media-query($on-laptop) {
 
   .story-title {
     font-size: 4em;
+    line-height: 1;
+  }
+
+  .story-title span {
+    font-size: .3em;
   }
 }
 
@@ -1041,3 +1076,19 @@ animation: yfgradient 12s ease infinite;
 
 }
 
+p.bio {
+  width: 90%;
+  margin: 0 auto;
+  color: #ffffff;
+  padding: 2em 0;
+}
+
+@include media-query($on-laptop) {
+
+p.bio {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5em 0;
+}
+
+}

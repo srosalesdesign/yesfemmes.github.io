@@ -48,14 +48,7 @@ preview: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
 	line-height: 1;
 }
 
-.story-title span {
-	font-size: .5em;
-	-webkit-background-clip: unset;
-    -webkit-text-fill-color: #5900ff;
-    -webkit-text-stroke-width: 0;
-    -webkit-text-stroke-color: unset;
-    color: #F74DEB;
-}
+
 
 .intro {
 	width: 80%;
@@ -197,6 +190,14 @@ p.single-space {
 	margin: 1em;
 }
 
+#auth-name {
+	color: #54EA66!important;
+	-webkit-background-clip: unset;
+    -webkit-text-fill-color: #54EA66;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: unset;
+}
+
 
 @media (min-width: 1024px) {
   
@@ -264,7 +265,7 @@ p.single-space {
 	<div class="story">
 	<div class="section full">
 	<div class="title-slide"><h1 class="story-title">Seashell Aesthetics:<br>
-<span>Nature-Camp in the era of Expanded Identity and Shrinking Resources</span></h1></div>
+<span>Nature-Camp in the era of Expanded Identity and Shrinking Resources</span><br><span id="auth-name">Martabel Wasserman</span></h1></div>
 <div class="intro"><p class="skew">“When I was little I held stones up to my crotch to feel the coldness, in order to move mountains you’ve got to know what stones are about.” – Mary Beth Edelson</p>
 <p class="skew">“Energy moves in cycles, circles, spirals, vortexes, whirls, pulsation, waves and rhythms, rarely if ever in simple straight lines” - Starhawk </p>
 </div>
@@ -583,6 +584,18 @@ British Museum</br>
 
 </div><!-- end slide 4 -->
 
+<p class="bio">Martabel Wasserman is a writer, artist, curator and Sagittarius living in Los Angeles with her two chihuahuas and femme lover. She has written about fierce pussy, the AIDS crisis and the aesthetics of solidarity. Curatorial projects include Fire in Her Belly, Hold Up and Coastal/Border (forthcoming). She was the founding editor of <i>RECAPSmagazine</i> from 2012-2014. She has shown photography in Providence, NYC, and LA and is currently getting back into her studio practice after a hiatus post graduate school. She also identifies as a femme.</p>
 
 </div><!-- end story -->
 </div><!-- end story wrapper -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93682415-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

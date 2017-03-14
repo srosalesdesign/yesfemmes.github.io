@@ -74,6 +74,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5900ff', end
 	padding: 5%;
 }
 
+.bio {
+	padding-bottom: 5em!important;
+}
+
 @media screen and (min-width: 800px) {
 
 .story {
@@ -86,7 +90,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5900ff', end
 
 <div class="story-wrapper">
 	<div class="section title-p full">
-			<h1 class="story-title">At the Edge of Space and Time: Expanding beyond Our 4% Universe
+			<h1 class="story-title">At the Edge of Space and Time: Expanding beyond Our 4% Universe<br>
+				<span>Jennifer Moon</span>
 			</h1>
 			<div class="intro">
 <p class="intro-p1 skew">Excerpt from Jennifer Moon and laub's performance for <span class="italics"><span class="bold">In Real Life:</span></span> 100 Days of Film and Performance at the Hammer Museum, Los Angeles.
@@ -119,9 +124,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5900ff', end
 <p>Kleinman, Adam. &quot;Intra-actions.&quot; Interview with Karen Barad.  <span class="italics">Mousse</span>, Issue 34, 9 June 2012, pp. 76-81.</p>
 
 <p>Smith, Peter Andrey. &quot;Can the Bacteria in Your Gut Explain Your Mood?&quot;  <span class="italics">The New York Times Magazine</span>, 23 June 2015, nytimes.com/2015/06/28/magazine/can-the-bacteria-in-your-gut-explain-your-mood.html.</p>
-</div>
+
+<p style="color: #000000;" class="bio">Jennifer Moon is a Los Angeles based artist, adventurer, and revolutionary committed to creating alternatives to the predetermined outcomes of art and of life. Drawing from the extremely personal, blending a mix of political theory, science, self-help, popular culture, and fantasy, Moon presents possibilities of new futures and new ways of being that stimulate continuous expansion for all on this earth and beyond. Moon has exhibited at the Hammer Museum, Los Angeles, for Made in L.A. 2014 where she won the Mohn Public Recognition Award. She has had solo exhibitions at Commonwealth & Council, Los Angeles; Equitable Vitrines, Los Angeles; Transmission Gallery, Glasgow, Scotland; China Art Objects Galleries, Los Angeles; Richard Heller Gallery, Los Angeles; and Tunnel, New York. Moon also maintains a monthly radio show, <i>Adventures With You</i>, formerly <i>Adventures Within</i>, on KCHUNG and is the recipient of a 2013 CCF Fellowship for Visual Artists.</p>
 
 </div>
 
 </div>
 
+
+
+
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93682415-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

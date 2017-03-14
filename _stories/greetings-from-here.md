@@ -37,6 +37,9 @@ p {
 	font-size: 1.2em;
 }
 
+p.bio {
+	color: #000000!important;
+}
 
 .one {
 	top: 10%;
@@ -79,10 +82,10 @@ p {
   transition: transform 8s 0.2s cubic-bezier(0,.87,.16,1);
 }
 .loaded p.skew {
-  transform: rotate(-7deg);
+  transform: rotate(-3deg);
 }
 .loaded p.skew span {
-  transform: rotate(-7deg);
+  transform: rotate(-3deg);
 }
 
 .track {
@@ -111,7 +114,7 @@ p {
 
 
 			<div class="section title-p full">
-			<h1 class="story-title">Greetings From Here
+			<h1 class="story-title">Greetings From Here<br><span>Pauline Gloss</span>
 			</h1>
 
 			<div class="intro">
@@ -141,4 +144,19 @@ p {
 
 	</div>
 </div>
+
+<div class="section full green-gradient">
+	<p class="bio">Pauline Gloss is a literary sound-artist based in Los Angeles. She runs Spoken Records, a label specializing in the release of work in the text-sound tradition. Her most recent record, "Greetings from Here: Audio Postcards in Transition," has been written about in <i>ARTILLERY Magazine</i> and <i>Sequenza21</i>. She has performed and shown solo work in New York and LA.</p>
+	</div>
 </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93682415-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
